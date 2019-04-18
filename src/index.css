@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Monoton');
+
 body {
   margin: 0;
   padding: 0;
@@ -6,9 +8,27 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(to right, rgba(7, 27, 82, 1) 0%, rgba(0, 128, 128, 1) 100%);
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+h1 {
+    font-family: 'Monoton', cursive;
+    font-weight: normal;
+    color: #fff;
+}
+
+input[type=search] {
+    width: 80%;
+}
+
+.preload {
+    font-family: 18px;
+    font-weight: lighter;
+    text-align: center;
+    color: #fff;
 }
